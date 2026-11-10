@@ -1,7 +1,8 @@
 /*1.Write a Java program to create a Student class with fields studentId, studentName, and course. 
 Initialize the data using a parameterized constructor and create another object by 
 copying the values of the first object using a copy constructor. Display the details of both objects.
-*/package com.languageFundamentalsConstructors;
+*/
+package com.languageFundamentalsConstructors;
 
 public class Student1 {
      int studentId;
@@ -21,7 +22,9 @@ public class Student1 {
 		Student1 s = new Student1(101,"Deepika","Java");
 		s.display();
 		Student1 s1 = new Student1(s);
+		s1.studentId=102;
 		s1.display();
+		
 	}
 	void display() {
 		System.out.println("Student Id:"+studentId);
