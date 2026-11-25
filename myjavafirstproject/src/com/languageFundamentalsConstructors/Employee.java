@@ -1,6 +1,6 @@
 package com.languageFundamentalsConstructors;
 
-public class Employee {
+public class Employee{
 	int eid;
 	String ename;
 	int age;

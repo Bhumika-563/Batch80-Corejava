@@ -11,7 +11,7 @@ public class VowelsorConsonant {
 			System.out.println("Enter a Letter:");
 			char letter = sc.next().charAt(0);
 			if((letter=='a' || letter =='A') || ( letter == 'e' || letter == 'E') 
-				|| (letter == 'i' || letter == 'I') || (letter == 'o' || letter == 'O') || (letter == 'u' || letter == 'E')){
+				|| (letter == 'i' || letter == 'I') || (letter == 'o' || letter == 'O') || (letter == 'u' || letter == 'U')){
 				System.out.println("Given Letter is Vowel");
 			}else {
 				System.out.println("Given Letter is Consonant");

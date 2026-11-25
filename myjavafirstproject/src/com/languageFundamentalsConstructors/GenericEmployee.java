@@ -54,7 +54,7 @@ public class GenericEmployee {
 		System.out.println("Enter Employee Id:");
 		long empId = sc.nextLong();
 		System.out.println("Enter Employee Name:");
-//     	sc.nextLine();
+    	sc.nextLine();
 		String empName = sc.nextLine();
 		System.out.println("Enter Employee Department:");
 		String empdept = sc.nextLine();
